@@ -49,11 +49,11 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>        
-        <version>7.2.3.0</version>
+        <version>8.0.0.0</version>
 		<relativePath/>
     </parent>
     <artifactId>dummy1</artifactId>
-    <version>1.1</version>
+    <version>2.1</version>
     <name>dummy1</name>
     <packaging>bundle</packaging>
     <description>This is the custom module (dummy1) for running on a Jahia server.</description>
@@ -61,8 +61,12 @@
         <connection>scm:git:git@github.com:Jahia/test-module-dummy1.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/test-module-dummy1.git</developerConnection>
         <url>https://github.com/Jahia/test-module-dummy1</url>
-        <tag>1.1</tag>
+        <tag>2.1</tag>
     </scm>
+    
+    <properties>
+        <jahia-module-signature>MCwCFG+pQ6gVemjpEDA6YIBYHbiPBezQAhQHsfKlsHy74H1gJxtx6ccoCGUJXg==</jahia-module-signature>
+    </properties>
 
     <repositories>
         <repository>
